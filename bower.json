@@ -1,0 +1,20 @@
+{
+  "name": "textarea-autogrow",
+  "main": "textarea-autogrow.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/CodingAspect/Textarea-Autogrow",
+  "authors": [
+    "Evyatar Rosner <evyatar@codingaspect.com>"
+  ],
+  "description": "A pure & high-performance Javascript solution for textarea auto-grow",
+  "keywords": [
+    "auto-grow",
+    "textarea",
+    "auto-expand",
+    "auto-resize"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "index.html"
+  ]
+}
