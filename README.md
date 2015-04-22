@@ -8,6 +8,11 @@ A pure javascript solution for automatically growing `textarea` element on typin
 
 A full explanation of the code can be found on my [blog post](http://codingaspect.com/blog/textarea-auto-grow-resizing-textarea-to-fit-text-height) along with a jQuery plugin and an Angular directive with this technique.
 
+#### Bower Installation
+```bash
+bower install textarea-autogrow
+```
+
 ######
 
 ## Usage:
