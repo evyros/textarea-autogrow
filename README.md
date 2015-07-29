@@ -13,14 +13,22 @@ A full explanation of the code can be found on my [blog post](http://codingaspec
 bower install textarea-autogrow
 ```
 
+#### npm Installation
+```bash
+npm install textarea-autogrow
+```
+
 ######
 
 ## Usage:
-
-Just include `textarea-autogrow.js` file in `<head>` tag:
+Just include `textarea-autogrow.js` file in `<head>` tag or require it:
 
 ```html
 <script type="text/javascript" src="textarea-autogrow.js"></script>
+```
+
+```javascript
+var Autogrow = require('textarea-autogrow');
 ```
 
 Then initialize the magic:
@@ -37,9 +45,7 @@ It's also recommended to add those two CSS properties to make things stable:
 }
 ```
 
-
 ######
-
 
 ## More Options:
 

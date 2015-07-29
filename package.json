@@ -1,0 +1,24 @@
+{
+  "name": "textarea-autogrow",
+  "version": "1.0.0",
+  "description": "A pure Javascript solution for auto-grow / expand a textarea element by its content.",
+  "main": "textarea-autogrow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingAspect/Textarea-Autogrow.git"
+  },
+  "keywords": [
+    "textarea",
+    "autogrow",
+    "expanding"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingAspect/Textarea-Autogrow/issues"
+  },
+  "homepage": "https://github.com/CodingAspect/Textarea-Autogrow#readme"
+}
