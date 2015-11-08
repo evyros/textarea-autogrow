@@ -1,5 +1,13 @@
-(function(){
-    this.Autogrow = function(textarea, maxLines){
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], factory);
+    } else if (typeof module === 'object' && module.exports) {
+        module.exports = factory();
+    } else {
+        root.Autogrow = factory();
+  }
+})(this, function(){
+    return function(textarea, maxLines){
         var self = this;
 
         if(maxLines === undefined){
@@ -50,4 +58,4 @@
         // Call autogrowFn() when textarea's value is changed
         textarea.addEventListener('input', self.autogrowFn);
     };
-})();
+});
